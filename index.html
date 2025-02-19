@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>SMS Test</title>
-    <script type="text/javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자 보내기</title>
+    <script>
         window.onload = function() {
-            // 페이지가 로드되면 자동으로 문자 보내기 링크 클릭
-            window.location.href = "sms:01042939396?body=안드로이드에서 문자 보내요.";
-        }
+            window.location.href = "sms:01012345678?body=안녕하세요!";
+        };
     </script>
 </head>
 <body>
-
-    <p>SMS Test for Android</p>
-    <a href="sms:01042939396?body=안드로이드에서 문자 보내요.">안드로이드에서 문자 보내기</a>
-
+    <p>문자 앱으로 이동 중... 이동되지 않으면 <a href="sms:01012345678?body=안녕하세요!">여기</a>를 클릭하세요.</p>
 </body>
 </html>
